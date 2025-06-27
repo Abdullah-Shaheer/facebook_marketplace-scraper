@@ -13,7 +13,7 @@ A powerful Python-based scraper that fetches data from Facebook Marketplace for 
   - Listings priced below **£200** to avoid scams.
 - ✅ Extracts detailed information from matched listings.
 - ✅ Fetches current price for the same model from **MusicMagpie**.
-- ✅ If the Facebook price is **≤ 125%** of the MusicMagpie price, sends a **Telegram alert** with full ad details.
+- ✅ If the Facebook price is **≤ 25%** of the MusicMagpie price, sends a **Telegram alert** with full ad details.
 - ✅ Avoids duplicate alerts by keeping a log of previously alerted links.
 
 ---
