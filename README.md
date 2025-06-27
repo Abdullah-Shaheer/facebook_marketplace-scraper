@@ -42,7 +42,7 @@ A powerful Python-based scraper that fetches data from Facebook Marketplace for 
    - Fetches detailed product info (price, storage, seller info).
    - Navigates to **MusicMagpie**, searches the device model, retrieves current offer price.
 4. Compares both prices:
-   - If Facebook ad price is a **good deal (≤ 125% of MM price)**, sends a Telegram alert to the user.
+   - If Facebook ad price is a **good deal (≤ 25% of MM price)**, sends a Telegram alert to the user.
    - Otherwise, skips the ad.
 5. Keeps track of previously alerted ads in a local file to avoid duplicate alerts.
 
