@@ -55,8 +55,8 @@ def check_fb_location(driver):
 
 
 def send_telegram_alert(message):
-    token = '8065864808:AAGqnBV87pXjzdVsVlpgrimqSawCB7MprHg'
-    chat_id = '7229644592'
+    token = 'your_token'
+    chat_id = 'your_chat_id'
     url = f'https://api.telegram.org/bot{token}/sendMessage'
 
     payload = {
